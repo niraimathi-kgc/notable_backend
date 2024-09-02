@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
-  runs-on: [ubuntu-latest]
-   - name: print step
-     run: echo "Hello world"
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: print step
+        run: echo "Hello wor"
