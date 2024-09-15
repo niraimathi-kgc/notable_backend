@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'notable_backend.wsgi.application'
 # CORS ALLOWED ORIGINS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://niraimathi-kgc.github.io"
 ]
 
 # CORS_ORIGIN_ALLOW_ALL = True
